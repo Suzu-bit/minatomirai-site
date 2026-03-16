@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MD31_kadai03</title>
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    </head>
+
+
+    <body>
+      
+      <!-- ナビゲーションメニュー -->
+      <header>
+        <nav class="navigation">
+          <ul class="navigation__main">
+            <a href="">Home</a>
+            <a href="">About</a>
+          </ul>
+
+          <ul class="navigation__main">
+            <a href="">横浜駅</a>
+            <a href="">みなとみらい</a>
+          </ul>
+
+          <ul class="navigation__main">
+            <a href="">横浜中華街</a>
+            <a href="">Food</a>
+          </ul>
+
+          <ul class="navigation__sns">
+            <p>神奈川県横浜市</p>
+            <a href="https://x.com/?lang=ja"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+          </ul>
+        </nav>
+      </header>
+
+
+      <!-- レスポンシブ対応のナビゲーションメニュー -->
+      <input type="checkbox" id="sp-menu-toggle" class="sp-toggle" hidden>
+
+      <div class="sp-topbar" aria-hidden="true">
+        <span class="sp-title">神奈川県横浜市</span>
+        <label for="sp-menu-toggle" class="sp-menu-btn">menu</label>
+      </div>
+
+      <nav class="sp-menu" aria-label="モバイルメニュー">
+        <div class="sp-menu__head">
+          <div class="sp-menu__brand">神奈川県横浜市</div>
+
+          <label for="sp-menu-toggle" class="sp-close" aria-label="閉じる">×</label>
+        </div>
+
+        <div class="sp-menu__nav">
+          <div class="row row--headline">
+            <a href="">Home</a><a href="">About</a>
+          </div>
+          <div class="row row--headline">
+            <a href="">横浜駅</a><a href="">みなとみらい</a>
+          </div>
+          <div class="row">
+            <a href="">横浜中華街</a><a href="">Food</a>
+          </div>
+        </div>
+
+        <div class="sp-menu__bottom">
+          <ul class="sns-list">
+            <li><a class="sns" href="https://x.com/?lang=ja" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a class="sns" href="https://instagram.com/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a class="sns" href="https://www.youtube.com/" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <label for="sp-menu-toggle" class="sp-backdrop" aria-hidden="true"></label>
+
+
+      <!-- コンテンツ -->
+      <div class="container">
+        <section class="video">
+          <video class="video__background" src="video/みなとみらい観覧車.mp4" autoplay loop muted playsinline></video>
+          <p>神奈川県横浜市</p>
+          <label for="sp-menu-toggle" class="sp-menu-inline">menu</label>
+
+        </section>
+
+        <div class="section-line">
+            <span>みなとみらい</span>
+        </div>
+
+        <section class="contents-first">
+          <ul>
+            <li class="fade">
+              <img src="images/みなとみらい観覧車.jpg" alt="画像">
+              <p class="contents-first__title">大観覧車「コスモロック21」</p>
+              <p class="contents-first__text">
+                横浜みなとみらい万葉倶楽部の屋上から撮影した横浜コスモワールドの大観覧車です。<br>
+                全高112.5m、定員480名の世界最大の時計機能付き観覧車です。<br>
+                約15分間の空中散歩では、昼は360度の雄大なパノラマを、夜は宝石をちりばめたような美しい夜景を一望できます。<br>
+              </p>
+            </li>
+
+            <li class="fade">
+              <img src="images/みなとみらいロープウェイ.jpg" alt="画像">
+              <p class="contents-first__title">Yokohama Air Cabin</p>
+              <p class="contents-first__text">
+                YOKOHAMA AIR CABINは日本初、世界最先端の都市型循環式ロープウェイです。<br>
+                JR桜木町駅前と新港地区の運河パークとを結び、よこはまコスモワールドやワールドポーターズ、ハンマーヘッド、赤レンガ倉庫など、みなとみらいを代表する観光スポットを高所から楽しみながら移動できます。
+              </p>
+            </li>
+
+            <li class="fade">
+              <img src="images/みなとみらい景色.jpg" alt="画像">
+              <p class="contents-first__title">みなとみらい景色</p>
+              <p class="contents-first__text">
+                この位置からは、みなとみらいで一番高いビル「横浜ランドマークタワー」や<br>
+                ショートケーキのような形をした「ヨコハマ グランド インターコンチネンタルホテル」がよく見えます。
+              </p>
+            </li>
+
+            <li class="fade">
+              <img src="images/みなとみらい花火.jpg" alt="画像">
+              <p class="contents-first__title">みなとみらいスマートフェスティバル2025花火大会</p>
+              <p class="contents-first__text">
+                8/4(月)にみなとみらいで開催された花火大会です。山下公園から観覧しました。<br>
+                赤レンガ倉庫、横浜ベイブリッジなどを背景に打ち上げられる花火はとても綺麗で、<br>
+                みなとみらいの夜景と相まって幻想的な光景を楽しむことができました。<br>
+              </p>
+            </li>
+          </ul>
+        </section>
+
+
+        <section class="contents-second">
+          <ul>
+            <li class="fade">
+              <img src="images/横浜駅.jpg" alt="画像">
+              <p class="contents-second__title">横浜駅</p>
+            </li>
+
+            <li class="fade">
+              <img src="images/みなとみらい景色2.jpg" alt="画像">
+              <p class="contents-second__title">みなとみらい</p>
+            </li>
+
+            <li class="fade">
+              <img src="images/横浜中華街.jpg" alt="画像">
+              <p class="contents-second__title">横浜中華街</p>
+            </li>
+
+            <li class="fade">
+              <img src="images/食べ歩き1.jpg" alt="画像">
+              <p class="contents-second__title">Food</p>
+            </li>
+          </ul>
+        </section>
+
+        <div class="section-line">
+            <span>横浜中華街</span>
+        </div>
+
+        <section class="contents-third">
+          <ul>
+            <li class="fade">
+              <img src="images/横浜中華街2.jpg" alt="画像">
+              <p class="contents-third__title">善隣門</p>
+              <p class="contents-third__text">
+                横浜中華街のシンボルである牌楼の一つで、中華街のメイン通りである大通りの入り口に立っています。<br>
+                門の裏側には「親仁善隣（しんじんぜんりん）」と書かれており、「親しく、すべての人の心に接し、仲良く」という意味で、隣国や隣家と仲良くするという願いが込められています。
+              </p>
+            </li>
+
+            <li class="fade">
+              <img src="images/食べ歩き2.jpg" alt="画像">
+              <p class="contents-third__title">ハリネズミまん</p>
+              <p class="contents-third__text">
+                創業1946年の老舗中華食材店「耀盛號（ようせいごう） 売店」で販売されている大人気の食べ歩き商品です。<br>
+                手のひらサイズの揚げまんで、パリパリとした揚げた生地と、中のしっとりフワフワなカスタードあんが甘くて美味しいです。<br>
+                ハリネズミの形をした可愛らしい見た目から、SNSでの写真投稿にも人気です。
+              </p>
+            </li>
+
+            <li class="fade">
+              <img src="images/食べ歩き3.jpg" alt="画像">
+              <p class="contents-third__title">二色焼き小籠包</p>
+              <p class="contents-third__text">
+                鵬天閣（ほうてんかく）の名物料理で、色が違う2種類の皮が特徴的です。<br>
+                白いタイプは王道の豚肉あん。翡翠色のほうは皮にほうれん草を練り込んでおり、具は海老などを混ぜ込んだ海鮮豚肉あんです。<br>
+                あふれる肉汁と焼き面の香ばしいカリカリ食感が絶品です。出来たてはアツアツなのでヤケドに注意してください。
+              </p>
+            </li>
+
+            <li class="fade">
+              <img src="images/オブジェ.jpg" alt="画像">
+              <p class="contents-third__title">横浜中華街オブジェ</p>
+              <p class="contents-third__text">
+                街全体やショップで、ランタンや提灯、龍飾り、中華結びなどの伝統的な中国の装飾品が使われています。<br>
+                駅からのアートウォールなど、街の随所で中国文化や歓迎の想いが込められた装飾を見ることができます。<br>
+                これらはとても華やかで、訪れる人々に異国情緒を感じさせ、写真撮影スポットとしても人気です。
+              </p>
+            </li>
+          </ul>
+        </section>
+
+
+        <footer class="footer-first">
+          <div class="footer__image">
+            <img src="images/みなとみらい観覧車2.jpg" alt="画像">
+          </div>
+
+          <div class="footer__sns">
+            <p>神奈川県横浜市</p>
+            <a href="https://x.com/?lang=ja"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </footer>
+
+
+        <footer class="footer-second">
+          <div class="footer__nav">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">みなとみらい</a>
+            <a href="">横浜中華街</a>
+            <a href="">Food</a>
+          </div>
+
+          <div class="footer__copyright">
+            <p>神奈川県横浜市</p>
+            <p>copyright 2025 @ in Yokohamashi</p>
+          </div>
+        </footer>
+
+    
+    </body>
+</html>
